@@ -11,15 +11,15 @@ while True:
     print("0. Salir")
 
     try:
-        opcion = int(input("Ingrese el número del ejercicio (0 para salir): "))
+        option = int(input("Ingrese el número del ejercicio (0 para salir): "))
 
-        if opcion == 0:
+        if option == 0:
             break
-        elif opcion == 1:
+        elif option == 1:
             lista = [int(x) for x in input("Ingrese la lista de números separados por espacios: ").split()]
             resultado = function.calcular_suma(lista)
             print("El resultado es:", resultado)
-        elif opcion == 2:
+        elif option == 2:
             lista = [int(x) for x in input("Ingrese la lista de números separados por espacios: ").split()]
             resultado = function.encontrar_maximo(lista)
             print("El número más grande es:", resultado)
