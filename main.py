@@ -8,7 +8,7 @@ while True:
 
     print("0. Salir")
 
-    opcion = int(input("Ingrese el número del ejercicio (0 para salir): ")
+    opcion = int(input("Ingrese el número del ejercicio (0 para salir): "))
 
     if opcion == 0:
         break
